@@ -1,0 +1,66 @@
+# Project: µ¿¹°³óÀåPlus
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ball.o bar.o block.o collision.o common.o game.o gameengine.o gameover.o introstate.o item.o mapstate.o playstate.o main.o $(RES)
+LINKOBJ  = ball.o bar.o block.o collision.o common.o game.o gameengine.o gameover.o introstate.o item.o mapstate.o playstate.o main.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = µ¿¹°³óÀåPlus.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before µ¿¹°³óÀåPlus.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "µ¿¹°³óÀåPlus.exe" $(LIBS)
+
+ball.o: ball.cpp
+	$(CPP) -c ball.cpp -o ball.o $(CXXFLAGS)
+
+bar.o: bar.cpp
+	$(CPP) -c bar.cpp -o bar.o $(CXXFLAGS)
+
+block.o: block.cpp
+	$(CPP) -c block.cpp -o block.o $(CXXFLAGS)
+
+collision.o: collision.cpp
+	$(CPP) -c collision.cpp -o collision.o $(CXXFLAGS)
+
+common.o: common.cpp
+	$(CPP) -c common.cpp -o common.o $(CXXFLAGS)
+
+game.o: game.cpp
+	$(CPP) -c game.cpp -o game.o $(CXXFLAGS)
+
+gameengine.o: gameengine.cpp
+	$(CPP) -c gameengine.cpp -o gameengine.o $(CXXFLAGS)
+
+gameover.o: gameover.cpp
+	$(CPP) -c gameover.cpp -o gameover.o $(CXXFLAGS)
+
+introstate.o: introstate.cpp
+	$(CPP) -c introstate.cpp -o introstate.o $(CXXFLAGS)
+
+item.o: item.cpp
+	$(CPP) -c item.cpp -o item.o $(CXXFLAGS)
+
+mapstate.o: mapstate.cpp
+	$(CPP) -c mapstate.cpp -o mapstate.o $(CXXFLAGS)
+
+playstate.o: playstate.cpp
+	$(CPP) -c playstate.cpp -o playstate.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
