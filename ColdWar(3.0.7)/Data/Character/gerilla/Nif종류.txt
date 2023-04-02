@@ -1,0 +1,3 @@
+gerilla.nif - 스킨 작업된 캐릭터
+gerilla2.nif - 부위별로 detach된 캐릭터
+gerilla(ABV).nif - 바운딩 볼륨이 삽입된 캐릭터

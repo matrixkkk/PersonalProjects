@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        
+       <Window Type="WonderlandLook/StaticImage" Name="Root/Background" >
+            <Property Name="Image" Value="set:MainMenuBackground image:MainMenuBackground" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,1024},{0,768}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+      
+      <Window Type="WonderlandLook/Button" Name="Root/Newgame" >
+        <Property Name="Font" Value="Commonwealth-10" />
+        <Property Name="Text" Value="" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.25,0},{0.23,0},{0.3,0}}" />
+      </Window>
+      <Window Type="WonderlandLook/Button" Name="Root/Option" >
+        <Property Name="Font" Value="Commonwealth-10" />
+        <Property Name="Text" Value="" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.39,0},{0.23,0},{0.44,0}}" />
+      </Window>
+      <Window Type="WonderlandLook/Button" Name="Root/Credit" >
+        <Property Name="Font" Value="Commonwealth-10" />
+        <Property Name="Text" Value="" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.32,0},{0.23,0},{0.37,0}}" />
+      </Window>
+      <Window Type="WonderlandLook/Button" Name="Root/ExitGame" >
+        <Property Name="Font" Value="Commonwealth-10" />
+        <Property Name="Text" Value="" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.46,0},{0.23,0},{0.51,0}}" />
+      </Window>
+
+      <Window Type="Vanilla/FrameWindow" Name="Root/NewGameBox" >
+        
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.23,0},{0.19,0},{0.46,0},{0.37,0}}" />
+        
+        <Property Name="SizingEnabled" Value="True" />
+        <Property Name="DragMovingEnabled" Value="True" />
+        <Property Name="DraggingEnabled" Value="True" />
+        <Property Name="CloseButtonEnabled" Value="True" />
+        <Property Name="FrameEnabled" Value="True" />
+
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+          <Property Name="Font" Value="Commonwealth-10" />
+          <Property Name="DraggingEnabled" Value="True" />
+        </AutoWindow>
+
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+
+        <Window Type="WonderlandLook/Button" Name="Root/NewGameBox/CreateGame" >
+          <Property Name="Text" Value="test" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.32,0},{0.9,0},{0.60,0}}" />
+        </Window>
+
+        <Window Type="WonderlandLook/Button" Name="Root/NewGameBox/JoinGame" >
+          <Property Name="Text" Value="test" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.64,0},{0.9,0},{0.92,0}}" />
+        </Window>
+        
+      </Window>
+
+      <Window Type="Vanilla/FrameWindow" Name="Root/ExitBox" >
+       
+        <Property Name="Text" Value="       Aru you Sure Exit Game?" />
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.400391,0},{0.429688,0},{0.650391,0},{0.576823,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="AlwaysOnTop" Value="True" />
+       
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+          <Property Name="Text" Value="       Aru you Sure Exit Game?" />
+          <Property Name="DraggingEnabled" Value="False" />
+        </AutoWindow>
+
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+
+        <Window Type="WonderlandLook/Button" Name="Root/ExitBox/Ok_Btn" >
+          <Property Name="Text" Value="Ok" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.0835938,0},{0.435398,0},{0.446875,0},{0.765044,0}}" />
+        </Window>
+
+        <Window Type="WonderlandLook/Button" Name="Root/ExitBox/Cancel_Btn" >
+          <Property Name="Text" Value="Cancel" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.546875,0},{0.420354,0},{0.890625,0},{0.75,0}}" />
+        </Window>
+     
+      </Window>
+
+
+      <Window Type="Vanilla/FrameWindow" Name="Root/ConnectBox" >
+        <Property Name="Text" Value="                Connect Game" />
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="SizingEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.4,0},{0.65,0},{0.65,0}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="AlwaysOnTop" Value="True" />
+       
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+          <Property Name="Text" Value="                Connect Game" />
+          <Property Name="DraggingEnabled" Value="False" />
+        </AutoWindow>
+
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+
+        <Window Type="WonderlandLook/StaticText" Name="Root/ConnectBox/IP_Static" >
+          <Property Name="Text" Value="   I  P :" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.09,0},{0.26,0},{0.34,0},{0.43,0}}" />
+          <AutoWindow NameSuffix="__auto_hscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />
+          </AutoWindow>
+          <AutoWindow NameSuffix="__auto_vscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />
+          </AutoWindow>
+        </Window>
+       
+        <Window Type="WonderlandLook/StaticText" Name="Root/ConnectBox/ID_Static" >
+          <Property Name="Text" Value="   I  D :" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.09,0},{0.47,0},{0.34,0},{0.64,0}}" />
+          <AutoWindow NameSuffix="__auto_hscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />
+          </AutoWindow>
+          <AutoWindow NameSuffix="__auto_vscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />
+          </AutoWindow>
+        </Window>
+       
+        <Window Type="WonderlandLook/Editbox" Name="Root/ConnectBox/IP_Edit" >
+          <Property Name="MaxTextLength" Value="1073741823" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.26,0},{0.93,0},{0.43,0}}" />
+        </Window>
+      
+        <Window Type="WonderlandLook/Editbox" Name="Root/ConnectBox/ID_Edit" >
+          <Property Name="MaxTextLength" Value="1073741823" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.47,0},{0.93,0},{0.64,0}}" />
+        </Window>
+     
+        <Window Type="WonderlandLook/Button" Name="Root/ConnectBox/Ok_Btn" >
+          <Property Name="Text" Value="Ok" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.095313,0},{0.67,0},{0.501562,0},{0.9,0}}" />
+        </Window>
+      
+        <Window Type="WonderlandLook/Button" Name="Root/ConnectBox/Cancel_Btn" >
+          <Property Name="Text" Value="Cancel" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.550781,0},{0.67,0},{0.933594,0},{0.9,0}}" />
+        </Window>
+
+      </Window>
+
+
+      <Window Type="Vanilla/FrameWindow" Name="Root/CreateGameBox" >
+        
+        <Property Name="Text" Value="               Create Game" />
+        <Property Name="Alpha" Value="0.5" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="TitlebarFont" Value="Commonwealth-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.401172,0},{0.401823,0},{0.651172,0},{0.646615,0}}" />
+        
+        <AutoWindow NameSuffix="__auto_titlebar__" >
+          <Property Name="Text" Value="               Create Game" />
+        </AutoWindow>
+        
+        <AutoWindow NameSuffix="__auto_closebutton__" />
+        
+        <Window Type="WonderlandLook/StaticText" Name="Root/CreateGameBox/ID_Static" >        
+          <Property Name="Text" Value="   I D :" />
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.0796875,0},{0.301042,0},{0.310156,0},{0.472917,0}}" />
+         
+          <AutoWindow NameSuffix="__auto_hscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />
+          </AutoWindow>
+          
+          <AutoWindow NameSuffix="__auto_vscrollbar__" >
+            <AutoWindow NameSuffix="__auto_incbtn__" />
+            <AutoWindow NameSuffix="__auto_decbtn__" />
+            <AutoWindow NameSuffix="__auto_thumb__" />          
+          </AutoWindow>          
+        </Window>
+        
+        <Window Type="WonderlandLook/Editbox" Name="Root/CreateGameBox/ID_Edit" >
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="MaxTextLength" Value="1073741823" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.359375,0},{0.302083,0},{0.917969,0},{0.473959,0}}" />
+        </Window>
+        
+        <Window Type="WonderlandLook/Button" Name="Root/CreateGameBox/Ok_Btn" >
+          <Property Name="Text" Value="OK" />
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.0789063,0},{0.533333,0},{0.469531,0},{0.7625,0}}" />
+        </Window>
+        
+        <Window Type="WonderlandLook/Button" Name="Root/CreateGameBox/Cancel_Btn" >
+          <Property Name="Text" Value="Cancel" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.526563,0},{0.529167,0},{0.925,0},{0.753125,0}}" />
+        </Window>
+        
+      </Window>
+    
+
+
+    </Window>
+  </GUILayout>
+  

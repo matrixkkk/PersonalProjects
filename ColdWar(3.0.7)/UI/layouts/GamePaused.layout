@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="GamePaused" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="WonderlandLook/StaticImage" Name="GamePaused/Background" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="FrameEnabled" Value="False" />
+	    <Property Name="Image" Value="set:GamePausedBackground image:GamePausedBackground" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,312},{0,259},{0,712},{0,509}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="WonderlandLook/Button" Name="GamePaused/Resume" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Resume Game" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,437},{0,429},{0,587},{0,479}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="StartNewGame" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="WonderlandLook/ItemListbox" Name="StartNewGame/CharacterSel" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,50},{0,482},{0,462},{0,602}}" />
+        </Window>
+        <Window Type="WonderlandLook/Listbox" Name="StartNewGame/LevelSel" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,562},{0,482},{0,974},{0,602}}" />
+        </Window>
+        <Window Type="WonderlandLook/StaticImage" Name="StartNewGame/Background" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:StartNewGameBackground image:StartNewGameBackground" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,1024},{0,768}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="WonderlandLook/Button" Name="StartNewGame/BeginGame" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Begin Game" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,824},{0,668},{0,974},{0,718}}" />
+        </Window>
+        <Window Type="WonderlandLook/Button" Name="StartNewGame/Cancel" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Cancel" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,649},{0,668},{0,799},{0,718}}" />
+        </Window>
+    </Window>
+</GUILayout>

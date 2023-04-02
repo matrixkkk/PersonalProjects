@@ -1,0 +1,401 @@
+18/11/2007 15:55:35 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+18/11/2007 15:55:35 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+18/11/2007 15:55:35 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+18/11/2007 15:55:35 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+18/11/2007 15:55:35 (InfL1)	CEGUI::Logger singleton created.
+18/11/2007 15:55:35 (InfL1)	---- Begining CEGUI System initialisation ----
+18/11/2007 15:55:35 (InfL1)	CEGUI::ImagesetManager singleton created
+18/11/2007 15:55:35 (InfL1)	CEGUI::FontManager singleton created.
+18/11/2007 15:55:35 (InfL1)	CEGUI::WindowFactoryManager singleton created
+18/11/2007 15:55:35 (InfL1)	CEGUI::WindowManager singleton created
+18/11/2007 15:55:35 (InfL1)	CEGUI::SchemeManager singleton created.
+18/11/2007 15:55:35 (InfL1)	CEGUI::MouseCursor singleton created.
+18/11/2007 15:55:35 (InfL1)	CEGUI::GlobalEventSet singleton created.
+18/11/2007 15:55:35 (InfL1)	CEGUI::WidgetLookManager singleton created.
+18/11/2007 15:55:35 (InfL1)	CEGUI::WindowRendererManager singleton created
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'DragContainer' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'ClippedContainer' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Checkbox' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/PushButton' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/RadioButton' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Combobox' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ComboDropList' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Editbox' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/FrameWindow' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ItemEntry' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Listbox' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ListHeader' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ListHeaderSegment' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Menubar' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/PopupMenu' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/MenuItem' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/MultiColumnList' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/MultiLineEditbox' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ProgressBar' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ScrollablePane' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Scrollbar' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Slider' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Spinner' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/TabButton' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/TabControl' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Thumb' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Titlebar' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/Tooltip' windows added.
+18/11/2007 15:55:35 (InfL1)	WindowFactory for 'CEGUI/ItemListbox' windows added.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+18/11/2007 15:55:35 (InfL1)	CEGUI::System singleton created.
+18/11/2007 15:55:35 (InfL1)	---- CEGUI System initialisation completed ----
+18/11/2007 15:55:35 (InfL1)	---- Version 0.5.0 ----
+18/11/2007 15:55:35 (InfL1)	---- Renderer module is: CEGUI::OpenGLRenderer - Official OpenGL based renderer module for CEGUI ----
+18/11/2007 15:55:35 (InfL1)	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+18/11/2007 15:55:35 (InfL1)	---- Scripting module is: None ----
+18/11/2007 15:55:35 (InfL1)	Attempting to create Font from the information specified in file 'Commonwealth-10.font'.
+18/11/2007 15:55:35 (InfL1)	Started creation of FreeType Font:
+18/11/2007 15:55:35 (InfL1)	---- CEGUI font name: Commonwealth-10
+18/11/2007 15:55:35 (InfL1)	----     Source file: Commonv2c.ttf in resource group: (Default)
+18/11/2007 15:55:35 (InfL1)	---- Real point size: 10
+18/11/2007 15:55:35 (InfL1)	Succsessfully loaded 219 glyphs
+18/11/2007 15:55:35 (InfL2)	Finished creation of Font 'Commonwealth-10' via XML file.
+18/11/2007 15:55:35 (InfL1)	Attempting to load Scheme from file 'VanillaSkin.scheme'.
+18/11/2007 15:55:35 (InfL2)	Started creation of Scheme 'VanillaSkin' via XML file.
+18/11/2007 15:55:35 (InfL2)	Finished creation of Scheme 'VanillaSkin' via XML file.
+18/11/2007 15:55:35 (InfL2)	Loaded GUI scheme 'VanillaSkin' from data in file 'VanillaSkin.scheme'.
+18/11/2007 15:55:35 (InfL2)	---- Begining resource loading for GUI scheme 'VanillaSkin' ----
+18/11/2007 15:55:35 (InfL1)	Attempting to create an Imageset from the information specified in file 'Vanilla.imageset'.
+18/11/2007 15:55:35 (InfL1)	Started creation of Imageset from XML specification:
+18/11/2007 15:55:35 (InfL1)	---- CEGUI Imageset name: Vanilla-Images
+18/11/2007 15:55:35 (InfL1)	---- Source texture file: vanilla.tga in resource group: (Default)
+18/11/2007 15:55:35 (InfL2)	Finished creation of Imageset 'Vanilla-Images' via XML file.
+18/11/2007 15:55:35 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/Shared'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/Shared'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/Titlebar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/Titlebar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/Button'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/Button'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/FrameWindow'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/FrameWindow'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/Editbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/Editbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/StaticImage'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/StaticImage'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/StaticText'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/StaticText'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/Listbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/Listbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'Vanilla/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'Vanilla/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL1)	===== Look and feel parsing completed =====
+18/11/2007 15:55:35 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Button' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Default' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Editbox' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/FrameWindow' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ItemEntry' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ListHeader' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ListHeaderSegment' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Listbox' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Menubar' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/MenuItem' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/MultiColumnList' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/MultiLineEditbox' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/PopupMenu' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ProgressBar' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ScrollablePane' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Scrollbar' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Slider' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Static' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/StaticImage' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/StaticText' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/SystemButton' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/TabButton' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/TabControl' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Titlebar' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ToggleButton' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/Tooltip' added.
+18/11/2007 15:55:35 (InfL1)	WindowRendererFactory 'Falagard/ItemListbox' added.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' and Look'N'Feel 'Vanilla/Titlebar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'Vanilla/Button'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' and Look'N'Feel 'Vanilla/FrameWindow'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'Vanilla/Editbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'Vanilla/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'Vanilla/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'Vanilla/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'Vanilla/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' and Look'N'Feel 'Vanilla/StaticImage'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' and Look'N'Feel 'Vanilla/StaticText'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' and Look'N'Feel 'Vanilla/Listbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'Vanilla/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' and Look'N'Feel 'Vanilla/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL2)	---- Resource loading for GUI scheme 'VanillaSkin' completed ----
+18/11/2007 15:55:35 (InfL1)	Attempting to load Scheme from file 'WonderlandLook.scheme'.
+18/11/2007 15:55:35 (InfL2)	Started creation of Scheme 'WonderlandLook' via XML file.
+18/11/2007 15:55:35 (InfL2)	Finished creation of Scheme 'WonderlandLook' via XML file.
+18/11/2007 15:55:35 (InfL2)	Loaded GUI scheme 'WonderlandLook' from data in file 'WonderlandLook.scheme'.
+18/11/2007 15:55:35 (InfL2)	---- Begining resource loading for GUI scheme 'WonderlandLook' ----
+18/11/2007 15:55:35 (InfL1)	Attempting to create an Imageset from the information specified in file 'WonderlandLook.imageset'.
+18/11/2007 15:55:35 (InfL1)	Started creation of Imageset from XML specification:
+18/11/2007 15:55:35 (InfL1)	---- CEGUI Imageset name: WonderlandLook
+18/11/2007 15:55:35 (InfL1)	---- Source texture file: WonderlandLook.tga in resource group: (Default)
+18/11/2007 15:55:35 (InfL2)	Finished creation of Imageset 'WonderlandLook' via XML file.
+18/11/2007 15:55:35 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Button'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Button'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/RadioButton'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/RadioButton'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Checkbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Checkbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Editbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Editbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Titlebar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Titlebar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/FrameWindow'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/FrameWindow'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ProgressBar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ProgressBar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/AltProgressBar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/AltProgressBar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/VUMeter'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/VUMeter'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/SliderThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/SliderThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Slider'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Slider'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Listbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Listbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ComboDropList'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ComboDropList'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ComboEditbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ComboEditbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Combobox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Combobox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Spinner'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Spinner'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/StaticShared'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/StaticShared'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/StaticImage'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/StaticImage'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/StaticText'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/StaticText'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ListHeaderSegment'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ListHeaderSegment'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ListHeader'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ListHeader'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/MultiColumnList'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/MultiColumnList'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Tooltip'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Tooltip'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ScrollablePane'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ScrollablePane'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/TabButton'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/TabButton'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/TabContentPane'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/TabContentPane'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/TabButtonPane'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/TabButtonPane'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/TabControl'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/TabControl'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/MenuItem'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/MenuItem'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/PopupMenu'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/PopupMenu'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/Menubar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/Menubar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/LargeVerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/LargeVerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/LargeVerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/LargeVerticalScrollbar'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ImageButton'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ImageButton'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ItemListbox'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ItemListbox'.
+18/11/2007 15:55:35 (InfL2)	---> Start of definition for widget look 'WonderlandLook/ListboxItem'.
+18/11/2007 15:55:35 (InfL2)	---< End of definition for widget look 'WonderlandLook/ListboxItem'.
+18/11/2007 15:55:35 (InfL1)	===== Look and feel parsing completed =====
+18/11/2007 15:55:35 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Button' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Default' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Editbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/FrameWindow' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ItemEntry' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ListHeader' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ListHeaderSegment' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Listbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Menubar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MenuItem' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MultiColumnList' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MultiLineEditbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/PopupMenu' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ProgressBar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ScrollablePane' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Scrollbar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Slider' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Static' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/StaticImage' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/StaticText' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/SystemButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/TabButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/TabControl' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Titlebar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ToggleButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Tooltip' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ItemListbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/Button'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'WonderlandLook/Checkbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ImageButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/ImageButton'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'WonderlandLook/RadioButton'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' and Look'N'Feel 'WonderlandLook/FrameWindow'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' and Look'N'Feel 'WonderlandLook/Titlebar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/SystemButton' and Look'N'Feel 'WonderlandLook/Button'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'WonderlandLook/Editbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' and Look'N'Feel 'WonderlandLook/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' and Look'N'Feel 'WonderlandLook/Menubar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' and Look'N'Feel 'WonderlandLook/PopupMenu'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' and Look'N'Feel 'WonderlandLook/MenuItem'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/AlternateProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'WonderlandLook/AltProgressBar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'WonderlandLook/ProgressBar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/VUMeter' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'WonderlandLook/VUMeter'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'WonderlandLook/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'WonderlandLook/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/LargeVerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'WonderlandLook/LargeVerticalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/LargeVerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/LargeVerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' and Look'N'Feel 'WonderlandLook/TabButton'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' and Look'N'Feel 'WonderlandLook/TabControl'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'WonderlandLook/TabContentPane'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'WonderlandLook/TabButtonPane'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' and Look'N'Feel 'WonderlandLook/ComboDropList'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ComboEditbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'WonderlandLook/ComboEditbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' and Look'N'Feel 'WonderlandLook/Combobox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' and Look'N'Feel 'WonderlandLook/Listbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' and Look'N'Feel 'WonderlandLook/ListHeader'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' and Look'N'Feel 'WonderlandLook/ListHeaderSegment'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' and Look'N'Feel 'WonderlandLook/MultiColumnList'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' and Look'N'Feel 'WonderlandLook/Slider'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'WonderlandLook/SliderThumb'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' and Look'N'Feel 'WonderlandLook/ScrollablePane'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' and Look'N'Feel 'WonderlandLook/Spinner'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' and Look'N'Feel 'WonderlandLook/Tooltip'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' and Look'N'Feel 'WonderlandLook/StaticImage'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' and Look'N'Feel 'WonderlandLook/StaticText'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' and Look'N'Feel 'WonderlandLook/ItemListbox'.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' and Look'N'Feel 'WonderlandLook/ListboxItem'.
+18/11/2007 15:55:35 (InfL2)	---- Resource loading for GUI scheme 'WonderlandLook' completed ----
+18/11/2007 15:55:35 (InfL1)	Attempting to load Scheme from file 'WonderlandLookWidgetAliases.scheme'.
+18/11/2007 15:55:35 (InfL2)	Started creation of Scheme 'WonderlandLookWidgetAliases' via XML file.
+18/11/2007 15:55:35 (InfL2)	Finished creation of Scheme 'WonderlandLookWidgetAliases' via XML file.
+18/11/2007 15:55:35 (InfL2)	Loaded GUI scheme 'WonderlandLookWidgetAliases' from data in file 'WonderlandLookWidgetAliases.scheme'.
+18/11/2007 15:55:35 (InfL2)	---- Begining resource loading for GUI scheme 'WonderlandLookWidgetAliases' ----
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland AltProgressBar' added for window type 'WonderlandLook/AlternateProgressBar'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Button' added for window type 'WonderlandLook/Button'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Checkbox' added for window type 'WonderlandLook/Checkbox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland System Button' added for window type 'WonderlandLook/SystemButton'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Combobox' added for window type 'WonderlandLook/Combobox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland ComboDropList' added for window type 'WonderlandLook/ComboDropList'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland ComboEditbox' added for window type 'WonderlandLook/ComboEditbox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Editbox' added for window type 'WonderlandLook/Editbox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Frame Window' added for window type 'WonderlandLook/FrameWindow'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Listbox' added for window type 'WonderlandLook/Listbox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland ListHeader' added for window type 'WonderlandLook/ListHeader'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland ListHeaderSegment' added for window type 'WonderlandLook/ListHeaderSegment'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MiniHorzScrollbar' added for window type 'WonderlandLook/HorizontalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MiniHorzScrollbarThumb' added for window type 'WonderlandLook/HorizontalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MiniVertScrollbar' added for window type 'WonderlandLook/VerticalScrollbar'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MiniVertScrollbarThumb' added for window type 'WonderlandLook/VerticalScrollbarThumb'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MultiColumnList' added for window type 'WonderlandLook/MultiColumnList'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland MultiLineEditbox' added for window type 'WonderlandLook/MultiLineEditbox'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland ProgressBar' added for window type 'WonderlandLook/ProgressBar'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland RadioButton' added for window type 'WonderlandLook/RadioButton'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Slider' added for window type 'WonderlandLook/Slider'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Slider Thumb' added for window type 'WonderlandLook/SliderThumb'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland StaticImage' added for window type 'WonderlandLook/StaticImage'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland StaticText' added for window type 'WonderlandLook/StaticText'.
+18/11/2007 15:55:35 (InfL1)	Window type alias named 'Wonderland Tab Button' added for window type 'WonderlandLook/TabButton'.
+18/11/2007 15:55:35 (Error)	Exception: WindowFactoryManager::addWindowTypeAlias - alias 'Wonderland Tab Pane' could not be created because the target type 'WonderlandLook/TabPane' is unknown within the system.
+18/11/2007 15:55:35 (InfL1)	Attempting to load Scheme from file 'WonderlandLookWidgets.scheme'.
+18/11/2007 15:55:35 (InfL2)	Started creation of Scheme 'WonderlandLookWidgets' via XML file.
+18/11/2007 15:55:35 (InfL2)	Finished creation of Scheme 'WonderlandLookWidgets' via XML file.
+18/11/2007 15:55:35 (InfL2)	Loaded GUI scheme 'WonderlandLookWidgets' from data in file 'WonderlandLookWidgets.scheme'.
+18/11/2007 15:55:35 (InfL2)	---- Begining resource loading for GUI scheme 'WonderlandLookWidgets' ----
+18/11/2007 15:55:35 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Button' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Default' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Editbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/FrameWindow' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ItemEntry' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ListHeader' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ListHeaderSegment' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Listbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Menubar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MenuItem' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MultiColumnList' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/MultiLineEditbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/PopupMenu' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ProgressBar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ScrollablePane' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Scrollbar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Slider' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Static' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/StaticImage' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/StaticText' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/SystemButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/TabButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/TabControl' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Titlebar' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ToggleButton' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/Tooltip' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL2)	WindowRenderer factory 'Falagard/ItemListbox' appears to be already registered, skipping.
+18/11/2007 15:55:35 (InfL1)	Creating falagard mapping for type 'WonderlandLook/TabPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'WonderlandLook/TabPane'.
+18/11/2007 15:55:35 (InfL2)	---- Resource loading for GUI scheme 'WonderlandLookWidgets' completed ----
+18/11/2007 15:55:37 (InfL1)	---- Begining CEGUI System destruction ----
+18/11/2007 15:55:37 (InfL1)	---- Begining cleanup of GUI Scheme system ----
+18/11/2007 15:55:37 (InfL2)	---- Begining resource cleanup for GUI scheme 'VanillaSkin' ----
+18/11/2007 15:55:37 (InfL2)	Imageset 'Vanilla-Images' has been destroyed.
+18/11/2007 15:55:37 (InfL2)	---- Resource cleanup for GUI scheme 'VanillaSkin' completed ----
+18/11/2007 15:55:37 (InfL2)	GUI scheme 'VanillaSkin' has been unloaded.
+18/11/2007 15:55:37 (InfL1)	Scheme 'VanillaSkin' has been unloaded.
+18/11/2007 15:55:37 (InfL2)	---- Begining resource cleanup for GUI scheme 'WonderlandLook' ----
+18/11/2007 15:55:37 (InfL2)	Imageset 'WonderlandLook' has been destroyed.
+18/11/2007 15:55:37 (InfL2)	---- Resource cleanup for GUI scheme 'WonderlandLook' completed ----
+18/11/2007 15:55:37 (InfL2)	GUI scheme 'WonderlandLook' has been unloaded.
+18/11/2007 15:55:37 (InfL1)	Scheme 'WonderlandLook' has been unloaded.
+18/11/2007 15:55:37 (InfL2)	---- Begining resource cleanup for GUI scheme 'WonderlandLookWidgets' ----
+18/11/2007 15:55:37 (InfL2)	---- Resource cleanup for GUI scheme 'WonderlandLookWidgets' completed ----
+18/11/2007 15:55:37 (InfL2)	GUI scheme 'WonderlandLookWidgets' has been unloaded.
+18/11/2007 15:55:37 (InfL1)	Scheme 'WonderlandLookWidgets' has been unloaded.
+18/11/2007 15:55:37 (InfL1)	CEGUI::SchemeManager singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	CEGUI::WindowManager singleton destroyed
+18/11/2007 15:55:37 (InfL1)	CEGUI::WindowFactoryManager singleton destroyed
+18/11/2007 15:55:37 (InfL1)	CEGUI::WidgetLookManager singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	CEGUI::WindowRendererManager singleton destroyed
+18/11/2007 15:55:37 (InfL1)	---- Begining cleanup of Font system ----
+18/11/2007 15:55:37 (InfL1)	Font 'Commonwealth-10' has been destroyed.
+18/11/2007 15:55:37 (InfL1)	CEGUI::FontManager singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	CEGUI::MouseCursor singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	---- Begining cleanup of Imageset system ----
+18/11/2007 15:55:37 (InfL1)	CEGUI::ImagesetManager singleton destroyed
+18/11/2007 15:55:37 (InfL1)	CEGUI::GlobalEventSet singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	CEGUI::System singleton destroyed.
+18/11/2007 15:55:37 (InfL1)	---- CEGUI System destruction completed ----
+18/11/2007 15:55:37 (InfL1)	CEGUI::Logger singleton destroyed.

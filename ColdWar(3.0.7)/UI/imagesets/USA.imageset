@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="USA" Imagefile="USA.tga" AutoScaled="true" >
+    <Image Name="USA" XPos="0" YPos="0" Width="256" Height="70" />
+</Imageset>

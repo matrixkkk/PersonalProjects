@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColdWar", "ColdWar.vcproj", "{4876AA60-317E-4D98-A725-72F3FB4AF408}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\ColdWarSetup\ColdWarSetup.vdproj", "{12075D16-A9C0-484E-A8E9-3603796AA837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4876AA60-317E-4D98-A725-72F3FB4AF408}.Debug|Win32.ActiveCfg = Release|Win32
+		{4876AA60-317E-4D98-A725-72F3FB4AF408}.Debug|Win32.Build.0 = Release|Win32
+		{4876AA60-317E-4D98-A725-72F3FB4AF408}.Release|Win32.ActiveCfg = Release|Win32
+		{4876AA60-317E-4D98-A725-72F3FB4AF408}.Release|Win32.Build.0 = Release|Win32
+		{12075D16-A9C0-484E-A8E9-3603796AA837}.Debug|Win32.ActiveCfg = Debug
+		{12075D16-A9C0-484E-A8E9-3603796AA837}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

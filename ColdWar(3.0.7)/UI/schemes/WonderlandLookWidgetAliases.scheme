@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="WonderlandLookWidgetAliases">
+	<WindowAlias Alias="Wonderland AltProgressBar" Target="WonderlandLook/AlternateProgressBar" />
+	<WindowAlias Alias="Wonderland Button" Target="WonderlandLook/Button" />
+	<WindowAlias Alias="Wonderland Checkbox" Target="WonderlandLook/Checkbox" />
+	<WindowAlias Alias="Wonderland System Button" Target="WonderlandLook/SystemButton" />
+	<WindowAlias Alias="Wonderland Combobox" Target="WonderlandLook/Combobox" />
+	<WindowAlias Alias="Wonderland ComboDropList" Target="WonderlandLook/ComboDropList" />
+	<WindowAlias Alias="Wonderland ComboEditbox" Target="WonderlandLook/ComboEditbox" />
+	<WindowAlias Alias="Wonderland Editbox" Target="WonderlandLook/Editbox" />
+	<WindowAlias Alias="Wonderland Frame Window" Target="WonderlandLook/FrameWindow" />
+	<WindowAlias Alias="Wonderland Listbox" Target="WonderlandLook/Listbox" />
+	<WindowAlias Alias="Wonderland ListHeader" Target="WonderlandLook/ListHeader" />
+	<WindowAlias Alias="Wonderland ListHeaderSegment" Target="WonderlandLook/ListHeaderSegment" />
+	<WindowAlias Alias="Wonderland MiniHorzScrollbar" Target="WonderlandLook/HorizontalScrollbar" />
+	<WindowAlias Alias="Wonderland MiniHorzScrollbarThumb" Target="WonderlandLook/HorizontalScrollbarThumb" />
+	<WindowAlias Alias="Wonderland MiniVertScrollbar" Target="WonderlandLook/VerticalScrollbar" />
+	<WindowAlias Alias="Wonderland MiniVertScrollbarThumb" Target="WonderlandLook/VerticalScrollbarThumb" />
+	<WindowAlias Alias="Wonderland MultiColumnList" Target="WonderlandLook/MultiColumnList" />
+	<WindowAlias Alias="Wonderland MultiLineEditbox" Target="WonderlandLook/MultiLineEditbox" />
+	<WindowAlias Alias="Wonderland ProgressBar" Target="WonderlandLook/ProgressBar" />
+	<WindowAlias Alias="Wonderland RadioButton" Target="WonderlandLook/RadioButton" />
+	<WindowAlias Alias="Wonderland Slider" Target="WonderlandLook/Slider" />
+	<WindowAlias Alias="Wonderland Slider Thumb" Target="WonderlandLook/SliderThumb" />
+	<WindowAlias Alias="Wonderland StaticImage" Target="WonderlandLook/StaticImage" />
+	<WindowAlias Alias="Wonderland StaticText" Target="WonderlandLook/StaticText" />
+	<WindowAlias Alias="Wonderland Tab Button" Target="WonderlandLook/TabButton" />
+	<WindowAlias Alias="Wonderland Tab Pane" Target="WonderlandLook/TabPane" />
+	<WindowAlias Alias="Wonderland Tab Control" Target="WonderlandLook/TabControl" />
+	<WindowAlias Alias="Wonderland Titlebar" Target="WonderlandLook/Titlebar" />
+	<WindowAlias Alias="Wonderland VertScrollbar" Target="WonderlandLook/LargeVerticalScrollbar" />
+	<WindowAlias Alias="Wonderland VertScrollbarThumb" Target="WonderlandLook/LargeVerticalScrollbarThumb" />
+</GUIScheme>
+

@@ -1,0 +1,155 @@
+// EMERGENT GAME TECHNOLOGIES PROPRIETARY INFORMATION
+//
+// This software is supplied under the terms of a license agreement or
+// nondisclosure agreement with Emergent Game Technologies and may not 
+// be copied or disclosed except in accordance with the terms of that 
+// agreement.
+//
+//      Copyright (c) 1996-2006 Emergent Game Technologies.
+//      All Rights Reserved.
+//
+// Emergent Game Technologies, Chapel Hill, North Carolina 27517
+// http://www.emergent.net
+
+NSFShader ObjectPickSkinnedShader
+{
+    "This shader performs the effect required by the ObjectPick sample for "
+    "picking on a skinned object. It simply performs 30-bone skinning in a "
+    "vertex shader, and writes a solid color to the render target."
+
+    // Attribute list
+    Global_Attributes
+    {
+        Attrib_Point4   PickColor   Hidden  1.0, 1.0, 1.0, 1.0
+    }
+
+    // Packing Definition
+    PackingDef PosBlendWeightBlendIndices
+    {
+        PD_Stream   0
+            PDP_Position        0   PDT_Float3
+            PDP_BlendWeights    1   PDT_Float3
+            PDP_BlendIndices    2   PDT_UByteColor
+    }    
+    
+    // Implementation
+    Implementation SM20
+    {
+        "This implementation is intended for hardware "
+        "that supports Vertex Shader and Pixel Shader v2.0"
+        
+        ClassName   = ObjectPickBinaryShader
+        
+        // Requirements for this implementation
+        Requirements
+        {
+            Platform                = DX9|XENON
+            VSVersion               = v2.0
+            UserVersion             = v0.0
+            PSVersion               = v2.0
+            BonesPerPartition       = 30
+            UsesNiRenderState       = true
+        }
+        
+        // Packing Definition it uses
+        PackingDef  PosBlendWeightBlendIndices
+
+        // 'Global' render states
+        RenderStates
+        {
+            Lighting            = false;
+        }
+
+        // First pass
+        Pass Pass0
+        {
+            // Vertex shader program
+            VSProgram   "ObjectPickSkinnedShader.vsh"
+
+            // Vertex Shader constant map
+            VS_Constantmap
+            {
+                CM_Defined      SkinWorldViewProjTranspose  0   0
+                CM_Constant     const_1_0_1_255             5   1   1.0, 0.0, 1.0, 765.01
+                CM_Defined      BoneMatrix3                 10  0   20
+            }
+
+            PSProgram "ObjectPickShader.psh"
+
+            // Pixel Shader constant map
+            PS_Constantmap
+            {
+                CM_Global       PickColor                   0   0
+            }
+        }
+    }
+}
+
+NSFShader ObjectPickNonSkinnedShader
+{
+    "This shader performs the effect required by the ObjectPick sample for "
+    "picking on a skinned object. It simply performs a simple transform in "
+    "the vertex shader, and writes a solid color to the render target."
+
+    // Attribute list
+    Global_Attributes
+    {
+        Attrib_Point4   PickColor   Hidden  1.0, 1.0, 1.0, 1.0
+    }
+
+    // Packing Definition
+    PackingDef Pos
+    {
+        PD_Stream   0
+            PDP_Position        0   PDT_Float3
+    }    
+    
+    // Implementation
+    Implementation SM20
+    {
+        "This implementation is intended for hardware "
+        "that supports Vertex Shader and Pixel Shader v2.0"
+        
+        ClassName   = ObjectPickBinaryShader
+        
+        // Requirements for this implementation
+        Requirements
+        {
+            Platform                = DX9|XENON
+            VSVersion               = v2.0
+            UserVersion             = v0.0
+            PSVersion               = v2.0
+            UsesNiRenderState       = true
+        }
+        
+        // Packing Definition it uses
+        PackingDef  Pos
+
+        // 'Global' render states
+        RenderStates
+        {
+            Lighting            = false;
+        }
+
+        // First pass
+        Pass Pass0
+        {
+            // Vertex shader program
+            VSProgram   "ObjectPickNonSkinnedShader.vsh"
+
+            // Vertex Shader constant map
+            VS_Constantmap
+            {
+                CM_Defined      WorldViewProjTranspose      0   0
+            }
+
+            PSProgram "ObjectPickShader.psh"
+
+            // Pixel Shader constant map
+            PS_Constantmap
+            {
+                CM_Global       PickColor                   0   0
+            }
+        }
+    }
+}

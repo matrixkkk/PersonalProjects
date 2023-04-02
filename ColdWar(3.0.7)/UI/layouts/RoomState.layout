@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+      <Property Name="InheritsAlpha" Value="False" />  
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        
+      <Window Type="WonderlandLook/StaticImage" Name="Root/BackGround" >
+            <Property Name="Image" Value="set:RoomStateBackground image:RoomStateBackground" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,1024},{0,768}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+      </Window>
+       
+        <Window Type="WonderlandLook/Titlebar" Name="Root/TitleBar" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00507814,0},{0.0122396,0},{0.995313,0},{0.0929686,0}}" />
+     
+          <Window Type="WonderlandLook/Button" Name="Root/TitleBar/Help" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Text" Value="Help" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                 <Property Name="UnifiedAreaRect" Value="{{0.64931,0},{0.2,0},{0.74931,0},{0.8,0}}" />
+          </Window>
+
+          <Window Type="WonderlandLook/Button" Name="Root/TitleBar/ExitRoom" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Text" Value="Exit" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.88931,0},{0.2,0},{0.98931,0},{0.8,0}}" />
+
+          </Window>
+
+          <Window Type="WonderlandLook/Button" Name="Root/TitleBar/Option" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Text" Value="Option" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.76931,0},{0.2,0},{0.86931,0},{0.8,0}}" />
+          </Window>
+          
+        </Window>
+      
+        <Window Type="WonderlandLook/Button" Name="Root/USA_Btn" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="USA" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.1,0},{0.32,0},{0.17,0}}" />
+        </Window>
+        <Window Type="WonderlandLook/Button" Name="Root/EU_Btn" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="EU" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.1,0},{0.65,0},{0.17,0}}" />
+        </Window>    
+     
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_0" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.180,0},{0.32,0},{0.230,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_1" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.231,0},{0.32,0},{0.280,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_2" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.282,0},{0.32,0},{0.332,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_3" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.333,0},{0.32,0},{0.382,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_4" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.384,0},{0.32,0},{0.434,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/USA_5" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.435,0},{0.32,0},{0.485,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_0" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.180,0},{0.65,0},{0.230,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_1" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.231,0},{0.65,0},{0.280,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_2" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.282,0},{0.65,0},{0.332,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_3" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.333,0},{0.65,0},{0.382,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_4" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.384,0},{0.65,0},{0.434,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/EU_5" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.435,0},{0.65,0},{0.485,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+       
+        <Window Type="WonderlandLook/Button" Name="Root/Guerrilla0_Btn" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Guerrilla 1" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.49,0},{0.32,0},{0.56,0}}" />
+        </Window>
+      
+        <Window Type="WonderlandLook/StaticText" Name="Root/Guerrilla_0" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.565,0},{0.32,0},{0.615,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/Guerrilla_1" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.565,0},{0.65,0},{0.615,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+      
+        <Window Type="WonderlandLook/Button" Name="Root/Guerrilla1_Btn" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Guerrilla 2" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.49,0},{0.65,0},{0.56,0}}" />
+        </Window>
+      
+        <Window Type="WonderlandLook/Button" Name="Root/ReadyAndStart_Btn" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="Ready &amp; Start" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.67,0},{0.1,0},{0.87,0},{0.17,0}}" />
+        </Window>
+      
+      <Window Type="Vanilla/FrameWindow" Name="Root/PlayerWindow" >
+            <Property Name="Text" Value=" Player List" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TitlebarFont" Value="Commonwealth-10" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.62,0},{0.2,0},{0.94,0}}" />
+            <AutoWindow NameSuffix="__auto_titlebar__" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Text" Value=" Player List" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_closebutton__" />
+        
+            <Window Type="WonderlandLook/Listbox" Name="Root/PlayerWindow/Player_List" >
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.147721,0},{0.973807,0},{0.959245,0}}" />
+                <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        
+        <Window Type="Vanilla/FrameWindow" Name="Root/ChatWindow" >
+            <Property Name="Text" Value=" Chatting" />  
+            <Property Name="Alpha" Value="0.7" />
+          <Property Name="TitlebarFont" Value="Commonwealth-10" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="SizingEnabled" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.212109,0},{0.62,0},{0.648633,0},{0.94,0}}" />
+          <Property Name="TitlebarEnabled" Value="True" />
+          <Property Name="AlwaysOnTop" Value="True" />   
+          
+            <AutoWindow NameSuffix="__auto_titlebar__" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Text" Value=" Chatting" />
+            </AutoWindow>
+          
+            <AutoWindow NameSuffix="__auto_closebutton__" />
+            <Window Type="WonderlandLook/StaticText" Name="Root/ChatWindow/Msg_Static" >
+                <Property Name="Text" Value=" Msg :" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.83,0},{0.15,0},{0.96,0}}" />
+                <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+            </Window>
+          
+            <Window Type="WonderlandLook/Editbox" Name="Root/ChatWindow/Msg_Edit" >
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.16,0},{0.83,0},{0.98,0},{0.96,0}}" />
+            </Window>
+          
+            <Window Type="WonderlandLook/Listbox" Name="Root/ChatWindow/Chat_List" >
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.146721,0},{0.99,0},{0.8,0}}" />
+                <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                    <AutoWindow NameSuffix="__auto_incbtn__" />
+                    <AutoWindow NameSuffix="__auto_decbtn__" />
+                    <AutoWindow NameSuffix="__auto_thumb__" />
+                </AutoWindow>
+            </Window>
+        </Window>
+      
+        <Window Type="WonderlandLook/Combobox" Name="Root/JobComboBox" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.662109,0},{0.565104,0},{0.912109,0},{0.8125,0}}" />
+            <Property Name="MaxEditTextLength" Value="1073741823" />
+            <AutoWindow NameSuffix="__auto_editbox__" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="ActiveSelectionColour" Value="FF6060FF" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_droplist__" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="DistributeCapturedInputs" Value="True" />
+                <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                    <Property Name="RestoreOldCapture" Value="True" />
+                    <AutoWindow NameSuffix="__auto_incbtn__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                    <AutoWindow NameSuffix="__auto_decbtn__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                    <AutoWindow NameSuffix="__auto_thumb__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                    <Property Name="RestoreOldCapture" Value="True" />
+                    <AutoWindow NameSuffix="__auto_incbtn__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                    <AutoWindow NameSuffix="__auto_decbtn__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                    <AutoWindow NameSuffix="__auto_thumb__" >
+                        <Property Name="RestoreOldCapture" Value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_button__" />
+        </Window>
+        <Window Type="WonderlandLook/StaticText" Name="Root/Job_Select_Static" >
+            <Property Name="Text" Value=" Jop Select" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.661914,0},{0.513021,0},{0.911914,0},{0.563021,0}}" />
+            <AutoWindow NameSuffix="__auto_hscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_vscrollbar__" >
+                <AutoWindow NameSuffix="__auto_incbtn__" />
+                <AutoWindow NameSuffix="__auto_decbtn__" />
+                <AutoWindow NameSuffix="__auto_thumb__" />
+            </AutoWindow>
+        </Window>
+        <Window Type="WonderlandLook/StaticImage" Name="Root/ArrowImageRight" >
+          <Property Name="Alpha" Value="0.5" />
+          <Property Name="Image" Value="set:rightarrow image:rightarrow" />
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.871475,0},{0.231992,0},{0.908966,0},{0.440521,0}}" />
+          <Property Name="BackgroundEnabled" Value="False" />
+          <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="WonderlandLook/StaticImage" Name="Root/MapImage" >
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="ClippedByParent" Value="False" />
+          <Property Name="UnifiedAreaRect" Value="{{0.700781,0},{0.232031,0},{0.866629,0},{0.440364,0}}" />
+          <Property Name="BackgroundEnabled" Value="False" />
+          <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="WonderlandLook/StaticImage" Name="Root/ArrowImageleft" >
+          <Property Name="Alpha" Value="0.5" />
+          <Property Name="Image" Value="set:leftarrow image:leftarrow" />
+          <Property Name="AlwaysOnTop" Value="True" />
+          <Property Name="InheritsAlpha" Value="False" />
+          <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+          <Property Name="UnifiedAreaRect" Value="{{0.660519,0},{0.232071,0},{0.695675,0},{0.441288,0}}" />
+          <Property Name="BackgroundEnabled" Value="False" />
+          <Property Name="FrameEnabled" Value="False" />
+        </Window>
+      <Window Type="WonderlandLook/StaticText" Name="Root/MapStatic" >
+        <Property Name="Alpha" Value="0.7" />
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.79668,0},{0.16875,0},{0.914844,0},{0.218229,0}}" />
+        <AutoWindow NameSuffix="__auto_hscrollbar__" >
+          <AutoWindow NameSuffix="__auto_incbtn__" />
+          <AutoWindow NameSuffix="__auto_decbtn__" />
+          <AutoWindow NameSuffix="__auto_thumb__" />
+        </AutoWindow>
+        <AutoWindow NameSuffix="__auto_vscrollbar__" >
+          <AutoWindow NameSuffix="__auto_incbtn__" />
+          <AutoWindow NameSuffix="__auto_decbtn__" />
+          <AutoWindow NameSuffix="__auto_thumb__" />
+        </AutoWindow>
+      </Window>
+      <Window Type="WonderlandLook/Button" Name="Root/MapSelect_Btn" >
+        <Property Name="Font" Value="Commonwealth-10" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.67207,0},{0.176302,0},{0.790234,0},{0.223177,0}}" />
+      </Window>
+      </Window>
+</GUILayout>

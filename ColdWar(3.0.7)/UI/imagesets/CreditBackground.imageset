@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="CreditBackground" Imagefile="CreditBackground.tga" AutoScaled="true" >
+    <Image Name="CreditBackground" XPos="0" YPos="0" Width="1024" Height="768" />
+</Imageset>
