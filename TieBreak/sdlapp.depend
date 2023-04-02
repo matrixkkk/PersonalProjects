@@ -1,0 +1,379 @@
+# depslib dependency file v1.0
+1195385117 d:\sdl_傍何\sdl_project\introstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	"GameApp.h"
+	"IntroState.h"
+	"MenuState.h"
+
+1196161498 d:\sdl_傍何\sdl_project\gameapp.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<vector>
+	"Team.h"
+	"StageParameter.h"
+
+1195384758 d:\sdl_傍何\sdl_project\gamestate.h
+	"GameApp.h"
+
+1195365895 d:\sdl_傍何\sdl_project\introstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	"GameState.h"
+
+1195400641 d:\sdl_傍何\sdl_project\menustate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1196161543 d:\sdl_傍何\sdl_project\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"GameApp.h"
+	"IntroState.h"
+
+1196161675 d:\sdl_傍何\sdl_project\gameapp.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_Mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"GameState.h"
+
+1196085759 d:\sdl_傍何\sdl_project\menustate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"MenuState.h"
+	"TeamSelectState.h"
+
+1195797906 d:\sdl_傍何\sdl_project\imagebutton.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<windows.h>
+	"ImageButton.h"
+
+1195797950 d:\sdl_傍何\sdl_project\imagebutton.h
+	<SDL/SDL.h>
+	<string>
+	<windows.h>
+	"GameApp.h"
+
+1195816274 d:\sdl_傍何\sdl_project\teamselectstate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1195831273 d:\sdl_傍何\sdl_project\teamselectstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"TeamSelectState.h"
+	"MenuState.h"
+	"CharacterOrderState.h"
+
+1196092595 d:\sdl_傍何\sdl_project\team.cpp
+	"Team.h"
+	<windows.h>
+
+1196091917 d:\sdl_傍何\sdl_project\team.h
+	<map>
+	<vector>
+	"DBPlayer.h"
+
+1196160338 d:\sdl_傍何\sdl_project\dbplayer.h
+	<iostream>
+	<cstring>
+
+1195838396 d:\sdl_傍何\sdl_project\characterorderstate.cpp
+	<windows.h>
+	<string>
+	"CharacterOrderState.h"
+	"TeamSelectState.h"
+	"MapSelectState.h"
+	"Team.h"
+
+1195812651 d:\sdl_傍何\sdl_project\characterorderstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+	<deque>
+	"GameState.h"
+	"ImageButton.h"
+	"Team.h"
+
+1196089897 d:\sdl_傍何\sdl_project\mapselectstate.cpp
+	"MapSelectState.h"
+	"PlayState.h"
+	"CharacterOrderState.h"
+
+1195831456 d:\sdl_傍何\sdl_project\stageparameter.h
+	<deque>
+	<string>
+
+1195916981 d:\sdl_傍何\sdl_project\mapselectstate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1196165461 d:\sdl_傍何\sdl_project\playstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<deque>
+	"GameState.h"
+	"Player.h"
+
+1197041194 d:\sdl_傍何\sdl_project\battleplaystate.cpp
+	"CBattleState.h"
+
+1197185424 d:\sdl_傍何\sdl_project\player.h
+	<SDL/SDL.h>
+	<string>
+	"GameApp.h"
+
+1197185518 d:\sdl_傍何\sdl_project\playstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+	<windows.h>
+	"GameApp.h"
+	"PlayState.h"
+	"DBPlayer.h"
+	"StageParameter.h"
+
+1197191314 d:\sdl_傍何\sdl_project\player.cpp
+	"Player.h"
+	<windows.h>
+	<cstdio>
+
+1197042451 d:\sdl_傍何\sdl_project\cbattlestate.h
+
+1197040874 d:\sdl_傍何\sdl_project\cbattlestate.cpp
+
+1197042463 d:\sdl_傍何\sdl_project\csurvestate.cpp
+
+1195838398 d:\sdl_project\characterorderstate.cpp
+	<windows.h>
+	<string>
+	"CharacterOrderState.h"
+	"TeamSelectState.h"
+	"MapSelectState.h"
+	"Team.h"
+
+1195812652 d:\sdl_project\characterorderstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+	<deque>
+	"GameState.h"
+	"ImageButton.h"
+	"Team.h"
+
+1195384760 d:\sdl_project\gamestate.h
+	"GameApp.h"
+
+1198171809 d:\sdl_project\gameapp.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<vector>
+	"Team.h"
+	"StageParameter.h"
+
+1196091918 d:\sdl_project\team.h
+	<map>
+	<vector>
+	"DBPlayer.h"
+
+1196160340 d:\sdl_project\dbplayer.h
+	<iostream>
+	<cstring>
+
+1198172075 d:\sdl_project\stageparameter.h
+	<deque>
+	<string>
+
+1195797952 d:\sdl_project\imagebutton.h
+	<SDL/SDL.h>
+	<string>
+	<windows.h>
+	"GameApp.h"
+
+1195816276 d:\sdl_project\teamselectstate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1195916982 d:\sdl_project\mapselectstate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1196161676 d:\sdl_project\gameapp.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_Mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"GameState.h"
+
+1198184462 d:\sdl_project\imagebutton.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<windows.h>
+	"ImageButton.h"
+
+1198184232 d:\sdl_project\introstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	"GameApp.h"
+	"IntroState.h"
+	"MenuState.h"
+
+1195365896 d:\sdl_project\introstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	"GameState.h"
+
+1198170324 d:\sdl_project\menustate.h
+	"GameState.h"
+	"ImageButton.h"
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<map>
+
+1198208952 d:\sdl_project\mapselectstate.cpp
+	"MapSelectState.h"
+	"PlayState.h"
+	"AIPlayState.h"
+	"CharacterOrderState.h"
+	<windows.h>
+
+1198211718 d:\sdl_project\playstate.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<deque>
+	"GameState.h"
+	"Player.h"
+	"ball.h"
+	"gamecontrol.h"
+	"AI.h"
+
+1198205773 d:\sdl_project\player.h
+	<SDL/SDL.h>
+	<string>
+	"GameApp.h"
+	"common.h"
+
+1198190861 d:\sdl_project\common.h
+	<math.h>
+	<SDL/SDL.h>
+	<windows.h>
+
+1198209571 d:\sdl_project\ball.h
+	<SDL/SDL.h>
+	"common.h"
+	"Player.h"
+
+1198208009 d:\sdl_project\gamecontrol.h
+	"common.h"
+	"ball.h"
+	"Player.h"
+
+1198172486 d:\sdl_project\menustate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"MenuState.h"
+	"TeamSelectState.h"
+
+1198211271 d:\sdl_project\playstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+	<windows.h>
+	<stdio.h>
+	"GameApp.h"
+	"PlayState.h"
+	"DBPlayer.h"
+	"StageParameter.h"
+	"MapSelectState.h"
+
+1198208615 d:\sdl_project\player.cpp
+	"Player.h"
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1198175609 d:\sdl_project\team.cpp
+	"Team.h"
+	<windows.h>
+
+1195831274 d:\sdl_project\teamselectstate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<windows.h>
+	"GameApp.h"
+	"TeamSelectState.h"
+	"MenuState.h"
+	"CharacterOrderState.h"
+
+1198209791 d:\sdl_project\ball.cpp
+	<SDL/SDL.h>
+	"GameApp.h"
+	"gamestate.h"
+	"introstate.h"
+	"playstate.h"
+	"ball.h"
+
+1198088809 d:\sdl_project\common.cpp
+	<SDL/SDL.h>
+	"common.h"
+
+1198209069 d:\sdl_project\gamecontrol.cpp
+	"gamecontrol.h"
+	"windows.h"
+
+1196161544 d:\sdl_project\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"GameApp.h"
+	"IntroState.h"
+
+1198185246 d:\sdl_project\ai.h
+	"common.h"
+	"ball.h"
+	"Player.h"
+
+1198189374 d:\sdl_project\ai.cpp
+	"AI.h"
+	<windows.h>
+
+1198176612 d:\sdl_project\aiplaystate.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<vector>
+	<windows.h>
+	<stdio.h>
+	"AIPlayState.h"
+	"MapSelectState.h"
+
+1198172382 d:\sdl_project\aiplaystate.h
+	<SDL/SDL.h>
+	<string>
+	"PlayState.h"
+

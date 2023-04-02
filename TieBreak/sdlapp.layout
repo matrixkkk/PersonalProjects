@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="AI.CPP" open="1" top="0">
+		<Cursor position="406" topLine="0"/>
+	</File>
+	<File name="AI.H" open="1" top="0">
+		<Cursor position="317" topLine="0"/>
+	</File>
+	<File name="AIPlayState.cpp" open="1" top="0">
+		<Cursor position="3005" topLine="89"/>
+	</File>
+	<File name="AIPlayState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="CharacterOrderState.cpp" open="1" top="0">
+		<Cursor position="1517" topLine="9"/>
+	</File>
+	<File name="CharacterOrderState.h" open="1" top="0">
+		<Cursor position="1354" topLine="9"/>
+	</File>
+	<File name="ComputerPlayState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="DBPlayer.h" open="1" top="0">
+		<Cursor position="291" topLine="0"/>
+	</File>
+	<File name="GameApp.cpp" open="1" top="0">
+		<Cursor position="166" topLine="0"/>
+	</File>
+	<File name="GameApp.h" open="1" top="0">
+		<Cursor position="372" topLine="8"/>
+	</File>
+	<File name="GameState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="ImageButton.cpp" open="1" top="0">
+		<Cursor position="386" topLine="0"/>
+	</File>
+	<File name="ImageButton.h" open="1" top="0">
+		<Cursor position="712" topLine="0"/>
+	</File>
+	<File name="IntroState.cpp" open="1" top="0">
+		<Cursor position="769" topLine="22"/>
+	</File>
+	<File name="IntroState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="MapSelectState.cpp" open="1" top="0">
+		<Cursor position="4075" topLine="120"/>
+	</File>
+	<File name="MapSelectState.h" open="1" top="0">
+		<Cursor position="1122" topLine="0"/>
+	</File>
+	<File name="MatchListState.h" open="1" top="0">
+		<Cursor position="849" topLine="0"/>
+	</File>
+	<File name="MenuState.cpp" open="1" top="0">
+		<Cursor position="704" topLine="0"/>
+	</File>
+	<File name="MenuState.h" open="1" top="0">
+		<Cursor position="347" topLine="0"/>
+	</File>
+	<File name="PlayState.cpp" open="1" top="1">
+		<Cursor position="2792" topLine="74"/>
+	</File>
+	<File name="PlayState.h" open="1" top="0">
+		<Cursor position="1923" topLine="33"/>
+	</File>
+	<File name="Player.cpp" open="1" top="0">
+		<Cursor position="13810" topLine="405"/>
+	</File>
+	<File name="Player.h" open="1" top="0">
+		<Cursor position="2683" topLine="39"/>
+	</File>
+	<File name="StageParameter.h" open="1" top="0">
+		<Cursor position="275" topLine="0"/>
+	</File>
+	<File name="Team.cpp" open="1" top="0">
+		<Cursor position="2822" topLine="0"/>
+	</File>
+	<File name="Team.h" open="1" top="0">
+		<Cursor position="407" topLine="0"/>
+	</File>
+	<File name="TeamSelectState.cpp" open="1" top="0">
+		<Cursor position="3307" topLine="98"/>
+	</File>
+	<File name="TeamSelectState.h" open="1" top="0">
+		<Cursor position="270" topLine="0"/>
+	</File>
+	<File name="ball.cpp" open="1" top="0">
+		<Cursor position="3960" topLine="260"/>
+	</File>
+	<File name="ball.h" open="1" top="0">
+		<Cursor position="1980" topLine="9"/>
+	</File>
+	<File name="common.cpp" open="1" top="0">
+		<Cursor position="172" topLine="13"/>
+	</File>
+	<File name="common.h" open="1" top="0">
+		<Cursor position="2256" topLine="42"/>
+	</File>
+	<File name="gamecontrol.cpp" open="1" top="0">
+		<Cursor position="5655" topLine="0"/>
+	</File>
+	<File name="gamecontrol.h" open="1" top="0">
+		<Cursor position="1024" topLine="11"/>
+	</File>
+	<File name="main.cpp" open="1" top="0">
+		<Cursor position="472" topLine="0"/>
+	</File>
+	<File name="widget.h" open="1" top="0">
+		<Cursor position="65" topLine="0"/>
+	</File>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>
