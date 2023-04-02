@@ -1,0 +1,106 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "새 게임",                     ID_MENU1
+        MENUITEM "게임 끝내기",                 ID_MENU2
+    END
+    POPUP "Option"
+    BEGIN
+        MENUITEM "1p vs 2p",                    ID_MENU4
+        MENUITEM "1p vs com",                   ID_MENU5
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "ball.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "table2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "laket.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "item.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "laket60.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "invisi.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "shield2.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "speedup.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "triple.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "control3.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "obstacleitem.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "orbit.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "laketitem.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "slow2.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "obstacle.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "shield.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "background.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
