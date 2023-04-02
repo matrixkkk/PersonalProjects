@@ -40,6 +40,24 @@ https://youtu.be/Gux3Cc-el5E
 
 테니스 스포츠 게임   
 
-독학으로 2D 게임에서 3차원 공의 움직임을 구현함   
+독학으로 2D 게임에서 공의 포물선 움직임을 구현함   
 https://youtu.be/xty9iVsLk4k   
 [![Video Label](https://i9.ytimg.com/vi/xty9iVsLk4k/mqdefault.jpg?sqp=CJiWpaEG-oaymwEmCMACELQB8quKqQMa8AEB-AHgBIAC4AOKAgwIABABGGUgTig8MA8=&rs=AOn4CLCKUK6Hz6PxibJsuN3eePvJ56_vrw)](https://youtu.be/xty9iVsLk4k)  
+
+# Smash
+
+에어하키 게임   
+
+윈도우 API 프로그래밍 기말 프로젝트   
+
+첫 게임 개발 작품   
+간단한 물리 법칙 적용   
+- 공의 움직임에 벡터 사용
+- 퍽과 라켓의 충돌에 전반사 적용
+- 라켓의 움직이는 방향으로 힘 적용
+
+단순하게 움직이는 AI 적용   
+
+https://youtu.be/Y7DUq9Rb9ak   
+[![Video Label](https://i9.ytimg.com/vi/Y7DUq9Rb9ak/mqdefault.jpg?sqp=CPCapaEG-oaymwEmCMACELQB8quKqQMa8AEB-AHmBIAC4AOKAgwIABABGBEgbihyMA8=&rs=AOn4CLCoPQ2OaVn73x3Y2mbyKBIX_tmGBQ)](https://youtu.be/Y7DUq9Rb9ak)  
+
